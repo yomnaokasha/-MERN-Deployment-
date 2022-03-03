@@ -16,15 +16,12 @@ const PetSchema = new mongoose.Schema({
   },
   skill1: {
     type: String,
-    maxLength: [3, "Pet may have 0 to 3 skills"],
   },
   skill2: {
     type: String,
-    maxLength: [3, "Pet may have 0 to 3 skills"],
   },
   skill3: {
     type: String,
-    maxLength: [3, "Pet may have 0 to 3 skills"],
   },
 });
 
